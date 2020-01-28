@@ -108,14 +108,14 @@ public  class  Judge extends JudgeAbstract {
     @Override
     public void setup() {
         engine.setUp();
-        if(team==Judge.TEAM_SCOURGE){
-       try {
-           backSound=Utils.getClip("audio/Pirates Of Caribbeans.wav");
-        } catch (Exception e) {
-           e.printStackTrace();
-       }
-      backSound.loop(20);
-        }
+     //   if(team==Judge.TEAM_SCOURGE){
+     //  try {
+     //      backSound=Utils.getClip("audio/Pirates Of Caribbeans.wav");
+      //  } catch (Exception e) {
+     //      e.printStackTrace();
+     //  }
+     // backSound.loop(20);
+     //   }
     }
 
     public static void callErr(){
